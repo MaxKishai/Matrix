@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.diode{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #333;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+}
+
+.matrix{
+    margin: 80px auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    border: 1px solid grey;
+    padding: 50px 50px 70px;
+    border-radius: 20px;
+    background-color: rgba(128,128,128. 0.1)
+}
+
+.frameLeft{
+    width: 4px;
+    height: 270px;
+    background-color: grey;
+    position: absolute;
+    left: 25px;
+    top: 42px;
+    border-radius: 50px;
+}
+.frameRight{
+    width: 4px;
+    height: 270px;
+    background-color: grey;
+    position: absolute;
+    right: 25px;
+    top: 42px;
+    border-radius: 50px;
+}
+.frameBottom{
+    width: 200px;
+    height: 4px;
+    background-color: grey;
+    position: absolute;
+    right: 42px;
+    bottom: 45px;
+    border-radius: 50px;
+}
+.frameTop{
+    width: 200px;
+    height: 4px;
+    background-color: grey;
+    position: absolute;
+    right: 42px;
+    top: 25px;
+    border-radius: 50px;
+}
+
+.name{
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    font-family: monospace;
+    margin-left: -7px;
+    font-weight: 900;
+}
+
+#inp{
+    height: 30px;
+    width: 180px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add{
+    background-color: lawngreen;
+    height: 30px;
+    width: 40px;
+}
+.inputs{
+    margin: 15px auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -110px;
+}
+    
